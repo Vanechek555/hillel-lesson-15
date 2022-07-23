@@ -1,0 +1,40 @@
+/*-------------------Technology-------------------*/
+
+.page-technology {
+  padding-top: 113px;
+  margin-bottom: 163px;
+}
+.technology__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+.technology__info{
+  display: grid;
+  row-gap: 24px;
+}
+.technology__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 133%;
+  color:var(--black);
+}
+.technology__sub-title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 133%;
+  color: var(--light-red);
+}
+.technology__text {
+  font-size: 20px;
+  line-height: 28.94px;
+  color: var(--dark-grey);
+}
+.technology__button {
+  justify-self: center;
+}
+.technology__button:hover {
+}
+.technology__picture {
+  width: 100%;
+}

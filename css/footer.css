@@ -1,0 +1,12 @@
+/*----------------------Footer-----------------------*/
+
+.footer {
+  padding: 21px 0;
+  text-align: center;
+  background: #EE4248;
+  color: #fff;
+  line-height: 21.09px;
+}
+.footer__span {
+  font-weight: 500;
+}

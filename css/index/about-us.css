@@ -1,0 +1,47 @@
+/*------------------About-us------------------*/
+
+.page-about-us {
+  margin-bottom: 116px;
+  background:  #f2f0f0;
+  padding: 57px 0 63px;
+}
+.about-us__body {
+  display: grid;
+  grid-template-columns: 1fr 520px;
+}
+.about-us__picture {
+  display: grid;
+  align-items: end;
+  width: 100%;
+}
+.about-us__info {
+  display: grid;
+  row-gap: 24px;
+}
+.about-us__title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 133%;
+}
+.about-us__span_black {
+  color: var(--black);
+}
+.about-us__span_red {
+  color: var(--light-red);
+}
+.about-us__text-block {
+}
+.block-text>:not(:last-child) {
+  margin-bottom: 24px;
+}
+.block-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--dark-grey);
+  line-height: 27px;
+  /* letter-spacing: 0.2px; */
+}
+.block-text__span {
+  font-weight: 500;
+  color: var(--light-red);
+}

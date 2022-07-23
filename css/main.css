@@ -1,0 +1,56 @@
+/*------------------Имапорт theme-------------------*/
+
+@import "theme.css";
+
+/*---------------Подкл. файла со шрифтами----------*/
+
+@import "fonts.css";
+
+/*--------------Подкл. обнул. стиля---------------*/
+
+@import "null.css";
+
+/*----------------Подкл. компонентов--------------*/
+
+@import "components/logo.css";
+@import "components/buttons.css";
+
+/*-----------------Подкл. navbar-----------------*/
+
+@import "navbar.css";
+
+/*-----------------Подкл. footer----------------*/
+
+@import "footer.css";
+
+/*---------------------Body-------------------*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  font-size: 18px;
+  background: #e5e5e5;
+}
+
+/*-------------------Wrapper----------------*/
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f7f7f7;
+}
+
+/*--------------------Main------------------*/
+
+.main {
+  flex-grow: 1;
+}
+
+/*------------------Container--------------*/
+
+[class*="__container"] {
+  max-width: 1126px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

@@ -1,0 +1,31 @@
+
+/*-----------------------button----------------------*/
+
+.button {
+  background: #EE4248;
+  color: #fff;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+  background: rgb(140, 11, 11);
+}
+
+/*--------------------large button-------------------*/
+
+.lg {
+  font-size: 20px;
+  padding: 12px 32px;
+  line-height: 28.94px;
+}
+
+/*------------------small button---------------------*/
+
+.sm {
+  font-size: 18px;
+  padding: 8px 16px;
+  line-height: 26.04px;   
+}
+
